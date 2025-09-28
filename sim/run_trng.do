@@ -9,6 +9,7 @@ vlib work
 
 # Compile RTL, assertions, and testbench
 vlog -sv ../rtl/ro.v
+vlog -sv ../rtl/ro_sim.v
 vlog -sv ../rtl/sampler.v
 vlog -sv ../rtl/sampler_16.v
 vlog -sv ../rtl/trng.v

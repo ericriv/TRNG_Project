@@ -10,7 +10,6 @@ output	out
 	wire n1, n2, n3, n4, n5, n6, n7, n8;
 	wire n9, n10, n11, n12, n13, n14;
 	
-	
 	assign n1 = (ctrl) ? ~n14 : n14; //ctrl high adds a 14th inverter
 	assign n2 = ~n1;
 	assign n3 = ~n2;

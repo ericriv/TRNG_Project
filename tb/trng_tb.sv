@@ -24,6 +24,7 @@ module trng_tb;
 	rst_n = 1;
 	en = 0;
 	rd_en = 0;
+	
 		
 	#20
 	$stop;
